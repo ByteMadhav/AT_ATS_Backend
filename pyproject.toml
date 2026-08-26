@@ -19,5 +19,5 @@ dependencies = [
     "uvicorn[standard]>=0.52.4",
 ]
 
-[vercel.tool]
+[tool.vercel]
 entrypoint = "backend.server:app"
