@@ -1,0 +1,24 @@
+[project]
+name = "ai-ats-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ByteMadhav", email = "madhavannup2005@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.141.1",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.0",
+    "langchain-openrouter>=0.2.8",
+    "openai>=3.3.1",
+    "pdfplumber>=0.11.10",
+    "python-dotenv>=1.2.3",
+    "python-multipart>=0.0.32",
+    "uvicorn[standard]>=0.52.4",
+]
+
+[tool.vercel]
+entrypoint = "backend.server:app"
+
