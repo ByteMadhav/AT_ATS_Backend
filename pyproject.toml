@@ -18,4 +18,3 @@ dependencies = [
     "python-multipart>=0.0.32",
     "uvicorn[standard]>=0.52.4",
 ]
-
